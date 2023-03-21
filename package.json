@@ -1,0 +1,26 @@
+{
+  "name": "github-top-languages",
+  "version": "0.0.1",
+  "description": "Use Node.js to fetch and display the percentage of languages used in your GitHub repositories.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "exec": "npx tsc && node dist/index.js"
+  },
+  "keywords": [
+    "github",
+    "top",
+    "languages",
+    "api",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "web3ten0",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.15.5",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3",
+    "typescript": "^5.0.2"
+  }
+}
